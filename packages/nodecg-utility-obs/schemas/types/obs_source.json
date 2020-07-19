@@ -9,6 +9,9 @@
 		"cy": {
 			"type": "number"
 		},
+		"alignment": {
+			"type": "number"
+		},
 		"id": {
 			"type": "number"
 		},
@@ -19,6 +22,9 @@
 			"type": "string"
 		},
 		"render": {
+			"type": "boolean"
+		},
+		"muted": {
 			"type": "boolean"
 		},
 		"source_cx": {

@@ -10,10 +10,12 @@ export type PreviewScene = null | {
 	sources: {
 		cx: number;
 		cy: number;
+		alignment?: number;
 		id: number;
 		locked: boolean;
 		name: string;
 		render: boolean;
+		muted?: boolean;
 		source_cx: number;
 		source_cy: number;
 		type: string;
